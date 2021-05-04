@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Covid Vaccine Appointment Booking",
+  "description": "Book vaccine slot as soon as it is available.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
